@@ -506,9 +506,11 @@ namespace RotatingViscometer.Nithons._190724
 
                 for (int i = 0; i < n; i++)
                 {
-                    a += Math.Log(Xs[i]) * Math.Log(Ys[i]) - _x * _y;
-                    b += Math.Pow(Math.Log(Xs[i]), 2) - n * Math.Pow(_x, 2);
+                    a += Math.Log(Xs[i]) * Math.Log(Ys[i]);
+                    b += Math.Pow(Math.Log(Xs[i]), 2);
                 }
+                a -= n * _x * _y;
+                b -= n * Math.Pow(_x, 2);
             }
             else
             {
@@ -523,9 +525,11 @@ namespace RotatingViscometer.Nithons._190724
 
                 for (int i = 0; i < n; i++)
                 {
-                    a += Xs[i] * Ys[i] - _x * _y;
-                    b += Math.Pow(Xs[i], 2) - n * Math.Pow(_x, 2);
+                    a += Xs[i] * Ys[i];
+                    b += Math.Pow(Xs[i], 2);
                 }
+                a -= n * _x * _y;
+                b -= n * Math.Pow(_x, 2);
             }
 
             return a / b;
@@ -541,6 +545,7 @@ namespace RotatingViscometer.Nithons._190724
         /// <returns></returns>
         public double ObtainTorO(double[] Xs, double[] Ys, double sp, bool isLog)
         {
+            double res = 0;
             double _x = 0;
             double _y = 0;
 
@@ -556,6 +561,8 @@ namespace RotatingViscometer.Nithons._190724
 
                 _x = _x / n;
                 _y = _y / n;
+
+                res = Math.Pow(Math.E, _y - sp * _x);
             }
             else
             {
@@ -567,9 +574,11 @@ namespace RotatingViscometer.Nithons._190724
 
                 _x = _x / n;
                 _y = _y / n;
+
+                res = _y - sp * _x;
             }
 
-            return _y - sp * _x;
+            return res;
         }
 
         /// <summary>
@@ -599,31 +608,42 @@ namespace RotatingViscometer.Nithons._190724
                 _x = _x / n;
                 _y = _y / n;
 
+                double b1 = 0;
+                double b2 = 0;
                 for (int i = 0; i < n; i++)
                 {
                     a += (Math.Log(Xs[i]) - _x) * (Math.Log(Ys[i]) - _y);
-                    b += Math.Sqrt(Math.Log(Xs[i]) - Math.Pow(_x, 2)) * Math.Sqrt(Math.Log(Ys[i]) - Math.Pow(_y, 2));
+                    b1 += Math.Pow((Math.Log(Xs[i]) - _x), 2);
+                    b2 += Math.Pow((Math.Log(Ys[i]) - _y), 2);
                 }
+
+                b = Math.Sqrt(b1) * Math.Sqrt(b2);
             }
             else
             {
                 for (int i = 0; i < n; i++)
                 {
                     _x += Xs[i];
-                    _x += Ys[i];
+                    _y += Ys[i];
                 }
 
                 _x = _x / n;
                 _y = _y / n;
 
+                double b1 = 0;
+                double b2 = 0;
                 for (int i = 0; i < n; i++)
                 {
                     a += (Xs[i] - _x) * (Ys[i] - _y);
-                    b += Math.Sqrt(Xs[i] - Math.Pow(_x, 2)) * Math.Sqrt(Ys[i] - Math.Pow(_y, 2));
+                    b1 += Math.Pow((Xs[i] - _x), 2);
+                    b2 += Math.Pow((Ys[i] - _y), 2);
                 }
+
+                b = Math.Sqrt(b1) * Math.Sqrt(b2);
             }
 
-            return a / b;
+            //可能有误
+            return Math.Pow(a / b, 2);
         }
 
         #endregion

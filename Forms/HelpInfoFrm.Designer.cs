@@ -36,21 +36,21 @@
             this.Submit = new System.Windows.Forms.Button();
             this.DotNet = new System.Windows.Forms.Label();
             this.tlp = new System.Windows.Forms.TableLayoutPanel();
+            this.picPhone = new System.Windows.Forms.PictureBox();
+            this.picEmail = new System.Windows.Forms.PictureBox();
+            this.picWeb = new System.Windows.Forms.PictureBox();
             this.Nithons = new System.Windows.Forms.Label();
             this.More = new System.Windows.Forms.LinkLabel();
             this.cbtn = new System.Windows.Forms.Button();
             this.header = new System.Windows.Forms.Label();
             this.topPnl = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.picPhone = new System.Windows.Forms.PictureBox();
-            this.picEmail = new System.Windows.Forms.PictureBox();
-            this.picWeb = new System.Windows.Forms.PictureBox();
             this.tlp.SuspendLayout();
-            this.topPnl.SuspendLayout();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picPhone)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEmail)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picWeb)).BeginInit();
+            this.topPnl.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Product
@@ -152,6 +152,39 @@
             this.tlp.Size = new System.Drawing.Size(512, 217);
             this.tlp.TabIndex = 11;
             // 
+            // picPhone
+            // 
+            this.picPhone.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.picPhone.BackgroundImage = global::RotatingViscometer.Nithons._190724.Properties.Resources.Telephone;
+            this.picPhone.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.picPhone.Location = new System.Drawing.Point(226, 31);
+            this.picPhone.Name = "picPhone";
+            this.picPhone.Size = new System.Drawing.Size(32, 32);
+            this.picPhone.TabIndex = 13;
+            this.picPhone.TabStop = false;
+            // 
+            // picEmail
+            // 
+            this.picEmail.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.picEmail.BackgroundImage = global::RotatingViscometer.Nithons._190724.Properties.Resources.Email;
+            this.picEmail.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.picEmail.Location = new System.Drawing.Point(226, 74);
+            this.picEmail.Name = "picEmail";
+            this.picEmail.Size = new System.Drawing.Size(32, 32);
+            this.picEmail.TabIndex = 14;
+            this.picEmail.TabStop = false;
+            // 
+            // picWeb
+            // 
+            this.picWeb.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.picWeb.BackgroundImage = global::RotatingViscometer.Nithons._190724.Properties.Resources.Address;
+            this.picWeb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.picWeb.Location = new System.Drawing.Point(226, 117);
+            this.picWeb.Name = "picWeb";
+            this.picWeb.Size = new System.Drawing.Size(32, 32);
+            this.picWeb.TabIndex = 15;
+            this.picWeb.TabStop = false;
+            // 
             // Nithons
             // 
             this.Nithons.AutoSize = true;
@@ -188,6 +221,9 @@
             this.cbtn.Size = new System.Drawing.Size(46, 32);
             this.cbtn.TabIndex = 2;
             this.cbtn.UseVisualStyleBackColor = true;
+            this.cbtn.Click += new System.EventHandler(this.Cbtn_Click);
+            this.cbtn.MouseLeave += new System.EventHandler(this.CBtn_MouseLeave);
+            this.cbtn.MouseMove += new System.Windows.Forms.MouseEventHandler(this.CBtn_MouseMove);
             // 
             // header
             // 
@@ -220,39 +256,6 @@
             this.panel1.Size = new System.Drawing.Size(518, 265);
             this.panel1.TabIndex = 14;
             // 
-            // picPhone
-            // 
-            this.picPhone.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.picPhone.BackgroundImage = global::RotatingViscometer.Nithons._190724.Properties.Resources.Telephone;
-            this.picPhone.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.picPhone.Location = new System.Drawing.Point(226, 31);
-            this.picPhone.Name = "picPhone";
-            this.picPhone.Size = new System.Drawing.Size(32, 32);
-            this.picPhone.TabIndex = 13;
-            this.picPhone.TabStop = false;
-            // 
-            // picEmail
-            // 
-            this.picEmail.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.picEmail.BackgroundImage = global::RotatingViscometer.Nithons._190724.Properties.Resources.Email;
-            this.picEmail.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.picEmail.Location = new System.Drawing.Point(226, 74);
-            this.picEmail.Name = "picEmail";
-            this.picEmail.Size = new System.Drawing.Size(32, 32);
-            this.picEmail.TabIndex = 14;
-            this.picEmail.TabStop = false;
-            // 
-            // picWeb
-            // 
-            this.picWeb.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.picWeb.BackgroundImage = global::RotatingViscometer.Nithons._190724.Properties.Resources.Address;
-            this.picWeb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.picWeb.Location = new System.Drawing.Point(226, 117);
-            this.picWeb.Name = "picWeb";
-            this.picWeb.Size = new System.Drawing.Size(32, 32);
-            this.picWeb.TabIndex = 15;
-            this.picWeb.TabStop = false;
-            // 
             // HelpInfoFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -275,13 +278,13 @@
             this.Load += new System.EventHandler(this.HelpInfoFrm_Load);
             this.tlp.ResumeLayout(false);
             this.tlp.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picPhone)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picEmail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picWeb)).EndInit();
             this.topPnl.ResumeLayout(false);
             this.topPnl.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picPhone)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picEmail)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picWeb)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

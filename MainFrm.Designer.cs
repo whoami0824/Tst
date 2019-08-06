@@ -50,14 +50,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title3 = new System.Windows.Forms.DataVisualization.Charting.Title();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title4 = new System.Windows.Forms.DataVisualization.Charting.Title();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -68,14 +60,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title5 = new System.Windows.Forms.DataVisualization.Charting.Title();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title6 = new System.Windows.Forms.DataVisualization.Charting.Title();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -86,20 +70,36 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series13 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series14 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title7 = new System.Windows.Forms.DataVisualization.Charting.Title();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series15 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series16 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title8 = new System.Windows.Forms.DataVisualization.Charting.Title();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title4 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title3 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title6 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series15 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series16 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title8 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title5 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series13 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series14 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title7 = new System.Windows.Forms.DataVisualization.Charting.Title();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainFrm));
             this.metroPnl = new System.Windows.Forms.Panel();
             this.titlePnl = new System.Windows.Forms.Panel();
@@ -132,8 +132,6 @@
             this.dataGridView2e = new System.Windows.Forms.DataGridView();
             this.dataGridView2d = new System.Windows.Forms.DataGridView();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.chart2b = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.chart2a = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.groupBox2b = new System.Windows.Forms.GroupBox();
             this.dataGridView2c = new System.Windows.Forms.DataGridView();
             this.dataGridView2b = new System.Windows.Forms.DataGridView();
@@ -150,8 +148,6 @@
             this.dataGridView3e = new System.Windows.Forms.DataGridView();
             this.dataGridView3d = new System.Windows.Forms.DataGridView();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.chart3b = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.chart3a = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.groupBox3b = new System.Windows.Forms.GroupBox();
             this.dataGridView3c = new System.Windows.Forms.DataGridView();
             this.dataGridView3b = new System.Windows.Forms.DataGridView();
@@ -168,8 +164,6 @@
             this.dataGridView4e = new System.Windows.Forms.DataGridView();
             this.dataGridView4d = new System.Windows.Forms.DataGridView();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.chart4b = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.chart4a = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.groupBox4b = new System.Windows.Forms.GroupBox();
             this.dataGridView4c = new System.Windows.Forms.DataGridView();
             this.dataGridView4b = new System.Windows.Forms.DataGridView();
@@ -203,6 +197,12 @@
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.chart2a = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chart2b = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chart3a = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chart4a = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chart3b = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chart4b = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.titlePnl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.mainPnl.SuspendLayout();
@@ -225,8 +225,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2e)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2d)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart2b)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart2a)).BeginInit();
             this.groupBox2b.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2c)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2b)).BeginInit();
@@ -238,8 +236,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3e)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3d)).BeginInit();
             this.tableLayoutPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart3b)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart3a)).BeginInit();
             this.groupBox3b.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3c)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3b)).BeginInit();
@@ -251,8 +247,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4e)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4d)).BeginInit();
             this.tableLayoutPanel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart4b)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart4a)).BeginInit();
             this.groupBox4b.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4c)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4b)).BeginInit();
@@ -261,6 +255,12 @@
             this.toolStrip4.SuspendLayout();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart2a)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart2b)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart3a)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart4a)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart3b)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart4b)).BeginInit();
             this.SuspendLayout();
             // 
             // metroPnl
@@ -527,8 +527,8 @@
             // chart1b
             // 
             chartArea1.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
-            chartArea1.AxisY.IsLogarithmic = true;
             chartArea1.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
+            chartArea1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             chartArea1.Name = "ChartArea1";
             this.chart1b.ChartAreas.Add(chartArea1);
             this.chart1b.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -536,9 +536,11 @@
             this.chart1b.Name = "chart1b";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.Color = System.Drawing.Color.Red;
             series1.Name = "Series1";
             series2.ChartArea = "ChartArea1";
             series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series2.Color = System.Drawing.Color.Blue;
             series2.Name = "Series2";
             this.chart1b.Series.Add(series1);
             this.chart1b.Series.Add(series2);
@@ -554,6 +556,7 @@
             // 
             chartArea2.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
             chartArea2.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
+            chartArea2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             chartArea2.Name = "ChartArea1";
             this.chart1a.ChartAreas.Add(chartArea2);
             this.chart1a.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -561,9 +564,11 @@
             this.chart1a.Name = "chart1a";
             series3.ChartArea = "ChartArea1";
             series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series3.Color = System.Drawing.Color.Red;
             series3.Name = "Series1";
             series4.ChartArea = "ChartArea1";
             series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series4.Color = System.Drawing.Color.Blue;
             series4.Name = "Series2";
             this.chart1a.Series.Add(series3);
             this.chart1a.Series.Add(series4);
@@ -744,7 +749,7 @@
             this.tableLayoutPanel2.ColumnCount = 2;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Controls.Add(this.chart2b, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.chart2b, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.chart2a, 0, 0);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(6, 20);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -753,57 +758,6 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 157F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(595, 160);
             this.tableLayoutPanel2.TabIndex = 0;
-            // 
-            // chart2b
-            // 
-            chartArea3.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
-            chartArea3.AxisY.IsLogarithmic = true;
-            chartArea3.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
-            chartArea3.Name = "ChartArea1";
-            this.chart2b.ChartAreas.Add(chartArea3);
-            this.chart2b.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.chart2b.Location = new System.Drawing.Point(302, 6);
-            this.chart2b.Name = "chart2b";
-            series5.ChartArea = "ChartArea1";
-            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series5.Name = "Series1";
-            series6.ChartArea = "ChartArea1";
-            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series6.Name = "Series2";
-            this.chart2b.Series.Add(series5);
-            this.chart2b.Series.Add(series6);
-            this.chart2b.Size = new System.Drawing.Size(287, 148);
-            this.chart2b.TabIndex = 1;
-            this.chart2b.Text = "chart2";
-            title3.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold);
-            title3.Name = "Title2";
-            title3.Text = "Title2";
-            this.chart2b.Titles.Add(title3);
-            // 
-            // chart2a
-            // 
-            chartArea4.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
-            chartArea4.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
-            chartArea4.Name = "ChartArea1";
-            this.chart2a.ChartAreas.Add(chartArea4);
-            this.chart2a.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.chart2a.Location = new System.Drawing.Point(6, 6);
-            this.chart2a.Name = "chart2a";
-            series7.ChartArea = "ChartArea1";
-            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series7.Name = "Series1";
-            series8.ChartArea = "ChartArea1";
-            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series8.Name = "Series2";
-            this.chart2a.Series.Add(series7);
-            this.chart2a.Series.Add(series8);
-            this.chart2a.Size = new System.Drawing.Size(287, 148);
-            this.chart2a.TabIndex = 0;
-            this.chart2a.Text = "chart1";
-            title4.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold);
-            title4.Name = "Title1";
-            title4.Text = "Title1";
-            this.chart2a.Titles.Add(title4);
             // 
             // groupBox2b
             // 
@@ -1036,7 +990,7 @@
             this.tableLayoutPanel3.ColumnCount = 2;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Controls.Add(this.chart3b, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.chart3b, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.chart3a, 0, 0);
             this.tableLayoutPanel3.Location = new System.Drawing.Point(6, 20);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
@@ -1045,57 +999,6 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 157F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(595, 160);
             this.tableLayoutPanel3.TabIndex = 0;
-            // 
-            // chart3b
-            // 
-            chartArea5.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
-            chartArea5.AxisY.IsLogarithmic = true;
-            chartArea5.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
-            chartArea5.Name = "ChartArea1";
-            this.chart3b.ChartAreas.Add(chartArea5);
-            this.chart3b.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.chart3b.Location = new System.Drawing.Point(302, 6);
-            this.chart3b.Name = "chart3b";
-            series9.ChartArea = "ChartArea1";
-            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series9.Name = "Series1";
-            series10.ChartArea = "ChartArea1";
-            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series10.Name = "Series2";
-            this.chart3b.Series.Add(series9);
-            this.chart3b.Series.Add(series10);
-            this.chart3b.Size = new System.Drawing.Size(287, 148);
-            this.chart3b.TabIndex = 1;
-            this.chart3b.Text = "chart2";
-            title5.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold);
-            title5.Name = "Title2";
-            title5.Text = "Title2";
-            this.chart3b.Titles.Add(title5);
-            // 
-            // chart3a
-            // 
-            chartArea6.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
-            chartArea6.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
-            chartArea6.Name = "ChartArea1";
-            this.chart3a.ChartAreas.Add(chartArea6);
-            this.chart3a.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.chart3a.Location = new System.Drawing.Point(6, 6);
-            this.chart3a.Name = "chart3a";
-            series11.ChartArea = "ChartArea1";
-            series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series11.Name = "Series1";
-            series12.ChartArea = "ChartArea1";
-            series12.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series12.Name = "Series2";
-            this.chart3a.Series.Add(series11);
-            this.chart3a.Series.Add(series12);
-            this.chart3a.Size = new System.Drawing.Size(287, 148);
-            this.chart3a.TabIndex = 0;
-            this.chart3a.Text = "chart1";
-            title6.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold);
-            title6.Name = "Title1";
-            title6.Text = "Title1";
-            this.chart3a.Titles.Add(title6);
             // 
             // groupBox3b
             // 
@@ -1328,7 +1231,7 @@
             this.tableLayoutPanel4.ColumnCount = 2;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Controls.Add(this.chart4b, 1, 0);
+            this.tableLayoutPanel4.Controls.Add(this.chart4b, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.chart4a, 0, 0);
             this.tableLayoutPanel4.Location = new System.Drawing.Point(6, 20);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
@@ -1337,57 +1240,6 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 157F));
             this.tableLayoutPanel4.Size = new System.Drawing.Size(595, 160);
             this.tableLayoutPanel4.TabIndex = 0;
-            // 
-            // chart4b
-            // 
-            chartArea7.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
-            chartArea7.AxisY.IsLogarithmic = true;
-            chartArea7.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
-            chartArea7.Name = "ChartArea1";
-            this.chart4b.ChartAreas.Add(chartArea7);
-            this.chart4b.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.chart4b.Location = new System.Drawing.Point(302, 6);
-            this.chart4b.Name = "chart4b";
-            series13.ChartArea = "ChartArea1";
-            series13.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series13.Name = "Series1";
-            series14.ChartArea = "ChartArea1";
-            series14.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series14.Name = "Series2";
-            this.chart4b.Series.Add(series13);
-            this.chart4b.Series.Add(series14);
-            this.chart4b.Size = new System.Drawing.Size(287, 148);
-            this.chart4b.TabIndex = 1;
-            this.chart4b.Text = "chart2";
-            title7.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold);
-            title7.Name = "Title2";
-            title7.Text = "Title2";
-            this.chart4b.Titles.Add(title7);
-            // 
-            // chart4a
-            // 
-            chartArea8.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
-            chartArea8.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
-            chartArea8.Name = "ChartArea1";
-            this.chart4a.ChartAreas.Add(chartArea8);
-            this.chart4a.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.chart4a.Location = new System.Drawing.Point(6, 6);
-            this.chart4a.Name = "chart4a";
-            series15.ChartArea = "ChartArea1";
-            series15.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series15.Name = "Series1";
-            series16.ChartArea = "ChartArea1";
-            series16.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series16.Name = "Series2";
-            this.chart4a.Series.Add(series15);
-            this.chart4a.Series.Add(series16);
-            this.chart4a.Size = new System.Drawing.Size(287, 148);
-            this.chart4a.TabIndex = 0;
-            this.chart4a.Text = "chart1";
-            title8.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold);
-            title8.Name = "Title1";
-            title8.Text = "Title1";
-            this.chart4a.Titles.Add(title8);
             // 
             // groupBox4b
             // 
@@ -1717,6 +1569,174 @@
             this.toolStripStatusLabel2.Spring = true;
             this.toolStripStatusLabel2.Text = "toolStripStatusLabel2";
             // 
+            // chart2a
+            // 
+            chartArea4.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
+            chartArea4.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
+            chartArea4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            chartArea4.Name = "ChartArea1";
+            this.chart2a.ChartAreas.Add(chartArea4);
+            this.chart2a.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.chart2a.Location = new System.Drawing.Point(6, 6);
+            this.chart2a.Name = "chart2a";
+            series7.ChartArea = "ChartArea1";
+            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series7.Color = System.Drawing.Color.Red;
+            series7.Name = "Series1";
+            series8.ChartArea = "ChartArea1";
+            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series8.Color = System.Drawing.Color.Blue;
+            series8.Name = "Series2";
+            this.chart2a.Series.Add(series7);
+            this.chart2a.Series.Add(series8);
+            this.chart2a.Size = new System.Drawing.Size(287, 148);
+            this.chart2a.TabIndex = 1;
+            this.chart2a.Text = "chart1";
+            title4.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold);
+            title4.Name = "Title1";
+            title4.Text = "Title1";
+            this.chart2a.Titles.Add(title4);
+            // 
+            // chart2b
+            // 
+            chartArea3.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
+            chartArea3.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
+            chartArea3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            chartArea3.Name = "ChartArea1";
+            this.chart2b.ChartAreas.Add(chartArea3);
+            this.chart2b.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.chart2b.Location = new System.Drawing.Point(302, 6);
+            this.chart2b.Name = "chart2b";
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series5.Color = System.Drawing.Color.Red;
+            series5.Name = "Series1";
+            series6.ChartArea = "ChartArea1";
+            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series6.Color = System.Drawing.Color.Blue;
+            series6.Name = "Series2";
+            this.chart2b.Series.Add(series5);
+            this.chart2b.Series.Add(series6);
+            this.chart2b.Size = new System.Drawing.Size(287, 148);
+            this.chart2b.TabIndex = 2;
+            this.chart2b.Text = "chart2";
+            title3.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold);
+            title3.Name = "Title2";
+            title3.Text = "Title2";
+            this.chart2b.Titles.Add(title3);
+            // 
+            // chart3a
+            // 
+            chartArea6.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
+            chartArea6.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
+            chartArea6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            chartArea6.Name = "ChartArea1";
+            this.chart3a.ChartAreas.Add(chartArea6);
+            this.chart3a.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.chart3a.Location = new System.Drawing.Point(6, 6);
+            this.chart3a.Name = "chart3a";
+            series11.ChartArea = "ChartArea1";
+            series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series11.Color = System.Drawing.Color.Red;
+            series11.Name = "Series1";
+            series12.ChartArea = "ChartArea1";
+            series12.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series12.Color = System.Drawing.Color.Blue;
+            series12.Name = "Series2";
+            this.chart3a.Series.Add(series11);
+            this.chart3a.Series.Add(series12);
+            this.chart3a.Size = new System.Drawing.Size(287, 148);
+            this.chart3a.TabIndex = 2;
+            this.chart3a.Text = "chart1";
+            title6.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold);
+            title6.Name = "Title1";
+            title6.Text = "Title1";
+            this.chart3a.Titles.Add(title6);
+            // 
+            // chart4a
+            // 
+            chartArea8.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
+            chartArea8.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
+            chartArea8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            chartArea8.Name = "ChartArea1";
+            this.chart4a.ChartAreas.Add(chartArea8);
+            this.chart4a.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.chart4a.Location = new System.Drawing.Point(6, 6);
+            this.chart4a.Name = "chart4a";
+            series15.ChartArea = "ChartArea1";
+            series15.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series15.Color = System.Drawing.Color.Red;
+            series15.Name = "Series1";
+            series16.ChartArea = "ChartArea1";
+            series16.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series16.Color = System.Drawing.Color.Blue;
+            series16.Name = "Series2";
+            this.chart4a.Series.Add(series15);
+            this.chart4a.Series.Add(series16);
+            this.chart4a.Size = new System.Drawing.Size(287, 148);
+            this.chart4a.TabIndex = 2;
+            this.chart4a.Text = "chart1";
+            title8.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold);
+            title8.Name = "Title1";
+            title8.Text = "Title1";
+            this.chart4a.Titles.Add(title8);
+            // 
+            // chart3b
+            // 
+            chartArea5.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
+            chartArea5.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
+            chartArea5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            chartArea5.Name = "ChartArea1";
+            this.chart3b.ChartAreas.Add(chartArea5);
+            this.chart3b.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.chart3b.Location = new System.Drawing.Point(302, 6);
+            this.chart3b.Name = "chart3b";
+            series9.ChartArea = "ChartArea1";
+            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series9.Color = System.Drawing.Color.Red;
+            series9.Name = "Series1";
+            series10.ChartArea = "ChartArea1";
+            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series10.Color = System.Drawing.Color.Blue;
+            series10.Name = "Series2";
+            this.chart3b.Series.Add(series9);
+            this.chart3b.Series.Add(series10);
+            this.chart3b.Size = new System.Drawing.Size(287, 148);
+            this.chart3b.TabIndex = 3;
+            this.chart3b.Text = "chart2";
+            title5.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold);
+            title5.Name = "Title2";
+            title5.Text = "Title2";
+            this.chart3b.Titles.Add(title5);
+            // 
+            // chart4b
+            // 
+            chartArea7.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
+            chartArea7.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
+            chartArea7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            chartArea7.Name = "ChartArea1";
+            this.chart4b.ChartAreas.Add(chartArea7);
+            this.chart4b.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.chart4b.Location = new System.Drawing.Point(302, 6);
+            this.chart4b.Name = "chart4b";
+            series13.ChartArea = "ChartArea1";
+            series13.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series13.Color = System.Drawing.Color.Red;
+            series13.Name = "Series1";
+            series14.ChartArea = "ChartArea1";
+            series14.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series14.Color = System.Drawing.Color.Blue;
+            series14.Name = "Series2";
+            this.chart4b.Series.Add(series13);
+            this.chart4b.Series.Add(series14);
+            this.chart4b.Size = new System.Drawing.Size(287, 148);
+            this.chart4b.TabIndex = 3;
+            this.chart4b.Text = "chart2";
+            title7.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold);
+            title7.Name = "Title2";
+            title7.Text = "Title2";
+            this.chart4b.Titles.Add(title7);
+            // 
             // MainFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -1763,8 +1783,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2e)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2d)).EndInit();
             this.tableLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart2b)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart2a)).EndInit();
             this.groupBox2b.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2c)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2b)).EndInit();
@@ -1777,8 +1795,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3e)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3d)).EndInit();
             this.tableLayoutPanel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart3b)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart3a)).EndInit();
             this.groupBox3b.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3c)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3b)).EndInit();
@@ -1791,8 +1807,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4e)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4d)).EndInit();
             this.tableLayoutPanel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart4b)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart4a)).EndInit();
             this.groupBox4b.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4c)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4b)).EndInit();
@@ -1804,6 +1818,12 @@
             this.menuStrip.PerformLayout();
             this.statusStrip.ResumeLayout(false);
             this.statusStrip.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart2a)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart2b)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart3a)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart4a)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart3b)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart4b)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1841,7 +1861,6 @@
         private System.Windows.Forms.Button miBtn;
         private System.Windows.Forms.Button cBtn;
         private System.Windows.Forms.Button mxBtn;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1b;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1a;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
@@ -1871,8 +1890,6 @@
         private System.Windows.Forms.DataGridView dataGridView2e;
         private System.Windows.Forms.DataGridView dataGridView2d;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart2b;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart2a;
         private System.Windows.Forms.GroupBox groupBox2b;
         private System.Windows.Forms.DataGridView dataGridView2c;
         private System.Windows.Forms.DataGridView dataGridView2b;
@@ -1880,8 +1897,6 @@
         private System.Windows.Forms.DataGridView dataGridView3e;
         private System.Windows.Forms.DataGridView dataGridView3d;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart3b;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart3a;
         private System.Windows.Forms.GroupBox groupBox3b;
         private System.Windows.Forms.DataGridView dataGridView3c;
         private System.Windows.Forms.DataGridView dataGridView3b;
@@ -1891,8 +1906,6 @@
         private System.Windows.Forms.DataGridView dataGridView4e;
         private System.Windows.Forms.DataGridView dataGridView4d;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart4b;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart4a;
         private System.Windows.Forms.GroupBox groupBox4b;
         private System.Windows.Forms.DataGridView dataGridView4c;
         private System.Windows.Forms.DataGridView dataGridView4b;
@@ -1913,5 +1926,12 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
         private System.Windows.Forms.ToolStripLabel toolStripLabel11;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart1b;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart2b;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart2a;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart3b;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart3a;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart4b;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart4a;
     }
 }

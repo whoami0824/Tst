@@ -62,5 +62,32 @@ namespace RotatingViscometer.Nithons._190724.Forms
             this.Close();
             Process.Start("http://www.nithons.com/");
         }
+
+        private void Cbtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        /// <summary>
+        /// [私有方法]
+        /// 鼠标在关闭按钮上方
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void CBtn_MouseMove(object sender, MouseEventArgs e)
+        {
+            cbtn.BackColor = Color.FromArgb(255, 244, 84, 84);
+        }
+
+        /// <summary>
+        /// [私有方法]
+        /// 鼠标离开关闭按钮上方
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void CBtn_MouseLeave(object sender, EventArgs e)
+        {
+            cbtn.BackColor = Color.White;
+        }
     }
 }

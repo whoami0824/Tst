@@ -307,7 +307,5 @@ namespace RotatingViscometer.Nithons._190724.Forms
         {
             Global._IsTstConfFrmOpen = false;
         }
-
-
     }
 }
